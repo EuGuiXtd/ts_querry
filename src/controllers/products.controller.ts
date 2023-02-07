@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import ProductService from '../services/product.service';
 
-class BooksController {
+class ProductController {
   constructor(private productService = new ProductService()) { }
 
   public getAll = async (_req: Request, res: Response) => {
@@ -17,4 +17,4 @@ class BooksController {
   };
 }
 
-export default BooksController;
+export default ProductController;

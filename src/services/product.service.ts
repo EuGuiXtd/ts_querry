@@ -2,7 +2,7 @@ import connection from '../models/connection';
 import ProductModel from '../models/product.model';
 import Product from '../interfaces/product.interface';
 
-class BookService {
+class ProductService {
   public model: ProductModel;
 
   constructor() {
@@ -19,4 +19,4 @@ class BookService {
   }
 }
 
-export default BookService;
+export default ProductService;
